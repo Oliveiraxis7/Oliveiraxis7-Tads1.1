@@ -10,9 +10,20 @@
     </div>
   </section>
 
-  <section class="destaques">
-    <h2>Destaques da Semana</h2>
-    <p>Confira nossos veículos com condições especiais.</p>
+  <section class="ofertas">
+    <h2>Ofertas da Semana</h2>
+    <div class="baloes">
+      <div class="balao">
+        <img src="caminhao-oferta.jpg" alt="Caminhão em oferta">
+        <h3>Scania R440 - Oferta Especial</h3>
+        <a href="caminhoes.php" class="btn">Ver Detalhes</a>
+      </div>
+      <div class="balao">
+        <img src="carro-oferta.jpg" alt="Carro em oferta">
+        <h3>Corolla 2022 - Oferta Especial</h3>
+        <a href="carros.php" class="btn">Ver Detalhes</a>
+      </div>
+    </div>
   </section>
 </main>
 
