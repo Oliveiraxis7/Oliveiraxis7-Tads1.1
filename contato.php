@@ -4,24 +4,40 @@
   <section class="contato">
     <h2>Fale Conosco</h2>
     <form action="enviar.php" method="POST" id="formulario">
-      <div class="grupo">
-        <input type="text" name="nome" placeholder="Nome completo" required>
-        <input type="email" name="email" placeholder="E-mail" required>
+      <div class="linha">
+        <div class="campo">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        </div>
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+        </div>
       </div>
-      <div class="grupo">
-        <input type="tel" name="telefone" placeholder="Telefone" required>
-        <select name="interesse" required>
-          <option value="">Tipo de veículo</option>
-          <option value="carro">Carro</option>
-          <option value="caminhao">Caminhão</option>
-        </select>
+      <div class="linha">
+        <div class="campo">
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+        </div>
+        <div class="campo">
+          <label for="interesse">Interesse</label>
+          <select id="interesse" name="interesse" required>
+            <option value="">Selecione</option>
+            <option value="carro">Carro</option>
+            <option value="caminhao">Caminhão</option>
+          </select>
+        </div>
       </div>
-      <textarea name="mensagem" placeholder="Sua mensagem" rows="4" required></textarea>
-      <label class="checkbox"><input type="checkbox" required> Aceito os termos</label>
+      <div class="campo">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem..." required></textarea>
+      </div>
+      <div class="termos">
+        <label><input type="checkbox" required> Aceito os termos e condições.</label>
+      </div>
       <button type="submit" class="btn">Enviar</button>
     </form>
   </section>
 </main>
 
-<script src="scripts.js"></script>
 <?php include('footer.php'); ?>
