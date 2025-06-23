@@ -11,9 +11,8 @@
   <h1>Fp Implementos</h1>
   <nav>
     <a href="index.php">Início</a>
-    <a href="#carros">Carros</a>
-    <a href="#caminhoes">Caminhões</a>
-    <a href="sobre.php">Sobre</a>
+    <a href="index.php#carros">Carros</a>
+    <a href="index.php#caminhoes">Caminhões</a>
     <a href="contato.php">Contato</a>
   </nav>
 </header>

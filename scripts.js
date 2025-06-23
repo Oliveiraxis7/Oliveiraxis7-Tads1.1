@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("formulario");
+  if (!form) return;
+
   const telefoneInput = form.querySelector('input[name="telefone"]');
   const emailInput = form.querySelector('input[name="email"]');
 
-  // Máscara de telefone (ex: (99) 99999-9999)
+  // Máscara telefone
   telefoneInput.addEventListener("input", () => {
     let valor = telefoneInput.value.replace(/\D/g, "");
     valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2");
@@ -11,12 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
     telefoneInput.value = valor.substring(0, 15);
   });
 
-  // Validação simples de e-mail
+  // Validação de e-mail
   function emailValido(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
 
-  // Estilo visual
+  // Feedback visual
   function marcarInvalido(campo) {
     campo.style.border = "2px solid red";
   }
@@ -25,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     campo.style.border = "2px solid green";
   }
 
+  // Envio
   form.addEventListener("submit", (e) => {
     const campos = form.querySelectorAll("input[required], select[required], textarea[required]");
     let valido = true;
@@ -52,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    // Confirmação final
     setTimeout(() => {
       alert("✅ Sua mensagem foi enviada com sucesso! Obrigado pelo contato.");
     }, 100);
