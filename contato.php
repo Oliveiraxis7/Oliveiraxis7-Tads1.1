@@ -3,7 +3,7 @@
 <main>
   <section class="contato">
     <h2>Fale Conosco</h2>
-    <form action="enviar.php" method="POST" id="formulario">
+    <form action="https://formspree.io/f/xzzgkpzv" method="POST" id="formulario">
       <div class="linha">
         <div class="campo">
           <label for="nome">Nome</label>
@@ -32,6 +32,12 @@
         <label for="mensagem">Mensagem</label>
         <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem..." required></textarea>
       </div>
+
+      <!-- (anti-spam) -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <!-- Redirecionamento opcional após envio -->
+
       <div class="termos">
         <label><input type="checkbox" required> Aceito os termos e condições.</label>
       </div>
