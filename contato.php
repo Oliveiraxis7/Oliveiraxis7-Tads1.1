@@ -20,6 +20,12 @@
           <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
         </div>
         <div class="campo">
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" name="cep" placeholder="00000-000" required>
+        </div>
+      </div>
+      <div class="linha">
+        <div class="campo">
           <label for="interesse">Interesse</label>
           <select id="interesse" name="interesse" required>
             <option value="">Selecione</option>
