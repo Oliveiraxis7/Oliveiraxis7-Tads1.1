@@ -12,49 +12,49 @@ $modais = [
     'nome' => 'Scania R440',
     'imagem' => 'imagens/scania.png',
     'descricao' => 'Truck 6x2, 440cv, Opticruise, revisado, pneus novos.',
-    'preco' => 'R$ 212.000'
+    'preco' => 'R$ 211.999'
   ],
   [
     'id' => 'gol',
     'nome' => 'Gol 2019',
     'imagem' => 'imagens/gol.jpg',
     'descricao' => 'Motor 1.6, completo, direção hidráulica, ar-condicionado, único dono.',
-    'preco' => 'R$ 43.000'
+    'preco' => 'R$ 42.999'
   ],
   [
     'id' => 'onix',
     'nome' => 'Onix 2023',
     'imagem' => 'imagens/onix.jpg',
     'descricao' => 'Turbo, multimídia, rodas de liga, 6 airbags, garantia de fábrica.',
-    'preco' => 'R$ 72.000'
+    'preco' => 'R$ 71.999'
   ],
   [
     'id' => 'argo',
     'nome' => 'Argo 2021',
     'imagem' => 'imagens/argo.webp',
     'descricao' => '1.3 Drive Flex, câmbio manual, som original, baixa quilometragem.',
-    'preco' => 'R$ 58.000'
+    'preco' => 'R$ 57.999'
   ],
   [
     'id' => 'volvo',
     'nome' => 'Volvo FH 540',
     'imagem' => 'imagens/volvo.jpg',
     'descricao' => '6x4, I-Shift, teto alto, 2021, rastreador, impecável.',
-    'preco' => 'R$ 315.000'
+    'preco' => 'R$ 314.999'
   ],
   [
     'id' => 'actros',
     'nome' => 'Actros',
     'imagem' => 'imagens/mercedes.jpg',
     'descricao' => 'Axor 2644, conforto top-line, ar digital, suspensão pneumática.',
-    'preco' => 'R$ 340.000'
+    'preco' => 'R$ 339.999'
   ],
   [
     'id' => 'daf',
     'nome' => 'DAF XF 105',
     'imagem' => 'imagens/daf.jpg',
     'descricao' => '13L 460cv, Euro 5, ar-condicionado, bancos pneumáticos.',
-    'preco' => 'R$ 280.000'
+    'preco' => 'R$ 279.999'
   ]
 ];
 ?>

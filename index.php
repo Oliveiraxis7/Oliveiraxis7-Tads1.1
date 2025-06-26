@@ -120,4 +120,4 @@ $veiculos = [
 </main>
 
 <?php include('footer.php'); ?>
-<link rel="icon" href="imagens/lgoo.png" type="image/png">
+<link rel="icon" href="imagens/favicon.ico" type="image/png">
